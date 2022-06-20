@@ -70,7 +70,7 @@ func IsAuthorized(handler http.HandlerFunc) http.HandlerFunc {
 
 			fmt.Println("hello amit gupta Function 1")
 			//r.Header.Set("Role", "admin")
-			fmt.Println("Admin Authorised Success")
+			fmt.Println("Admin Authorised Success  v1")
 			handler.ServeHTTP(w, r)
 			return
 		}
